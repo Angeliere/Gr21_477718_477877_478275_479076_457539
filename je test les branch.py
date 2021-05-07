@@ -1,5 +1,5 @@
 import sqlite3
-connexion = sqlite3.connect('/Users/maximedevroede/Downloads/database1.db')
+connexion = sqlite3.connect('C:\\Users\\schwe\\Desktop\\Groupe_21.db')
 curseur = connexion.cursor()
 
 def voir_table(table):
@@ -9,7 +9,7 @@ def voir_table(table):
     for row in resultat:
         print(row)
         
-messages = query
+messages == query
 
 if 29999 > messages > 10000:
         print("Coupon -5% chez Farm pour un produit Bio")
