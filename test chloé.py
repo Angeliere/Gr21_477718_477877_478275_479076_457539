@@ -27,7 +27,3 @@ for userid in userids:
 
 
 connexion.close()
-
-
-
-
